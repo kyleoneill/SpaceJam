@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="font-size: 12px; color: rgb(210, 210, 210); -unity-font-style: normal; position: absolute; width: 306px;">
+        <ui:Label text="test World! From UXML" name="PlanetName" style="width: 160px;" />
+        <ui:Label text="Habitability" display-tooltip-when-elided="true" name="Habitability" />
+        <ui:Button text="Colonize" display-tooltip-when-elided="true" name="Colonize" focusable="false" style="position: absolute; top: 91px; left: 15px; background-color: rgb(36, 36, 36); height: 26px; width: 123px;" />
+        <ui:Button text="Close" display-tooltip-when-elided="true" name="Close" focusable="false" style="position: absolute; top: 92px; left: 161px; background-color: rgb(36, 36, 36); height: 26px; width: 159px;" />
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,31 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="font-size: 12px; color: rgb(210, 210, 210); -unity-font-style: normal; position: absolute; width: 306px;">
+        <ui:Label text="test World! From UXML" name="PlanetName" style="width: 160px;" />
+        <ui:Label text="Habitability" display-tooltip-when-elided="true" name="Habitability" />
+        <ui:Label text="Label" display-tooltip-when-elided="true" name="Population" style="width: 160px;" />
+        <ui:Foldout name="Resources" text="Resources" value="true" style="width: 160px;">
+            <ui:Label text="Label" display-tooltip-when-elided="true" name="Food" />
+            <ui:Label text="Label" display-tooltip-when-elided="true" name="Energy" />
+            <ui:Label text="Label" display-tooltip-when-elided="true" name="Minerals" />
+            <ui:Label text="Label" display-tooltip-when-elided="true" name="ConsumerGoods" />
+        </ui:Foldout>
+        <ui:Foldout text="Buildings" name="Buildings" style="align-items: stretch; width: auto; position: absolute; top: 0; left: 160px;">
+            <ui:Label text="Label" display-tooltip-when-elided="true" name="Farm" style="align-items: auto;" />
+            <ui:Label text="Label" display-tooltip-when-elided="true" name="Reactor" />
+            <ui:Label text="Label" display-tooltip-when-elided="true" name="AsteroidMiner" />
+            <ui:Label text="Label" display-tooltip-when-elided="true" name="Mine" />
+            <ui:Label text="Label" display-tooltip-when-elided="true" name="FabricationPlant" />
+            <ui:Label text="Label" display-tooltip-when-elided="true" name="Terraformer" />
+            <ui:Label text="Label" display-tooltip-when-elided="true" name="Housing" />
+            <ui:Button text="Farm" display-tooltip-when-elided="true" name="BuyFarm" focusable="false" style="position: absolute; top: -20px; left: 130px; background-color: rgb(36, 36, 36);" />
+            <ui:Button text="Reactor" display-tooltip-when-elided="true" name="BuyReactor" focusable="false" style="position: absolute; top: 15px; left: 130px; background-color: rgb(36, 36, 36);" />
+            <ui:Button text="AsteroidMiner" display-tooltip-when-elided="true" name="BuyAsteroid" focusable="false" style="position: absolute; top: 50px; left: 130px; background-color: rgb(36, 36, 36); width: 93px;" />
+            <ui:Button text="Mine" display-tooltip-when-elided="true" name="BuyMine" focusable="false" style="position: absolute; top: 80px; left: 130px; background-color: rgb(36, 36, 36);" />
+            <ui:Button text="FabricationPlant" display-tooltip-when-elided="true" name="BuyFab" focusable="false" style="position: absolute; top: 110px; left: 130px; background-color: rgb(36, 36, 36); width: 109px;" />
+            <ui:Button text="Terraformer" display-tooltip-when-elided="true" name="BuyTerraform" focusable="false" style="position: absolute; top: 140px; left: 130px; background-color: rgb(36, 36, 36); width: 89px;" />
+            <ui:Button text="Housing" display-tooltip-when-elided="true" name="BuyHousing" focusable="false" style="position: absolute; top: 180px; left: 130px; background-color: rgb(36, 36, 36);" />
+            <ui:Button text="Space Station" display-tooltip-when-elided="true" name="BuySpaceStation" focusable="false" style="position: absolute; top: 228px; left: -117px; background-color: rgb(36, 36, 36); height: 26px; width: 159px;" />
+        </ui:Foldout>
+        <ui:Button text="Close" display-tooltip-when-elided="true" name="Close" focusable="false" style="position: absolute; top: 249px; left: 233px; background-color: rgb(36, 36, 36); height: 26px; width: 159px;" />
+    </ui:VisualElement>
+</ui:UXML>
