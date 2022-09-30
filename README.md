@@ -16,3 +16,6 @@ planets habitability, which can be modified with a terraformer building.
 A planets max population depends on its habitability and how many houses
 have been built. Population grows if there is an excess of food and
 consumer goods.
+
+## Thanks
+Thank you to [Deep-Fold](https://github.com/Deep-Fold) for making the planet and space background generator used to make most of this games sprite assets.
