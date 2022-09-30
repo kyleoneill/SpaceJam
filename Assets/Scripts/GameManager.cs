@@ -39,8 +39,6 @@ public class GameManager : MonoBehaviour
     void StartGame()
     {
         _planets = new List<PlanetController>();
-        
-        // TODO: I need some way to reset state when we restart the game and only instantiate when we're in the game scene (not menu)
         InvokeRepeating(nameof(RunLogicUpdate), 2.0f, stateUpdateFrequency);
     }
 
